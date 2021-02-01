@@ -1,0 +1,6 @@
+tech_cells_generic:
+  commit: v0.2.3
+common_cells:
+  commit: v1.13.1
+udma_core:
+  commit: v1.0.2

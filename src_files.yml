@@ -1,0 +1,33 @@
+hypnos:
+  incdirs:
+    - rtl/spi_module
+  files:
+  - src/common/pkg_common.sv
+  - src/hd_accelerator/hd_encoder/mixer/pkg_mixer_permutate.sv
+  - src/hd_accelerator/hd_encoder/mixer/mixer.sv
+  - src/hd_accelerator/hd_encoder/man_module/unary_encoder/unary_encoder.sv
+  - src/hd_accelerator/hd_encoder/man_module/pkg_perm_final.sv
+  - src/hd_accelerator/hd_encoder/man_module/man_module.sv
+  - src/hd_accelerator/hd_encoder/hd_unit/pkg_hd_unit.sv
+  - src/hd_accelerator/hd_encoder/hd_unit/hd_unit.sv
+  - src/hd_accelerator/hd_encoder/pkg_hd_encoder.sv
+  - src/hd_accelerator/hd_encoder/hd_encoder.sv
+  - src/hd_accelerator/hd_memory/pkg_hd_memory.sv
+  - src/hd_accelerator/hd_memory/hd_memory.sv
+  - src/hd_accelerator/ucode_sequencer/config_unit/pkg_memory_mapping.sv
+  - src/hd_accelerator/ucode_sequencer/ucode_decoder/pkg_ucode_decoder.sv
+  - src/hd_accelerator/ucode_sequencer/pkg_ucode_sequencer.sv
+  - src/hd_accelerator/ucode_sequencer/config_unit/config_unit.sv
+  - src/hd_accelerator/ucode_sequencer/pc_hw_loop_mod/pc_hwl_mod.sv
+  - src/hd_accelerator/ucode_sequencer/ucode_decoder/ucode_decoder.sv
+  - src/common/scm_1rw.sv
+  - src/hd_accelerator/ucode_sequencer/ucode_sequencer.sv
+  - src/hd_accelerator/shared_memory_interface/shared_memory_interface.sv
+  - src/hd_accelerator/hd_accelerator.sv
+  - src/cfg_iface_adapter/cfg_iface.sv
+  - src/spi_module/wakeupspi_spim_ctrl.sv
+  - src/spi_module/wakeupspi_spim_txrx.sv
+  - src/spi_module/spi_top.sv
+  - src/preprocessor/lbp.sv
+  - src/preprocessor/preprocessor_top.sv
+  - src/hypnos.sv
