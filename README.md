@@ -1,4 +1,4 @@
-# Hypnos - An Hyperdimensional Computing Based Wake-up Circuit
+# Hypnos - A Hyperdimensional Computing Based Wake-up Circuit
 Hypnos has the purpose to act as a smart wake-up circuit within larger SoCs. It
 consists of an SPI master module, a lightweight general purpose digital
 preprocessing block and an autonomous hardware accelerator for hyperdimensional
