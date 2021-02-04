@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+# SPDX-License-Identifier: Apache-2.0
 
 import click
 from jinja2 import Template
@@ -40,4 +41,3 @@ def generate_permutations(count, functionname, vector_width, with_inverse, outpu
             np.savez('{}_inv_perm.npz'.format(functionname), *inv_permutations)
 if __name__ == '__main__':
     generate_permutations()
-
